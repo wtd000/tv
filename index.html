@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>香香看电视</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="header"><h1>香香看电视</h1></div>
+		<div class="main">
+			<div class="tv-title">
+				<span>正在播放:</span>
+				<h1 id="video-title">别问我，我也不知道你在看啥，自己记</h1>
+			</div>
+			<div class="video">
+				<iframe id="palybox" src="https://ftp.bmp.ovh/imgs/2020/05/6fd89e45f47db63c.jpeg" allowtransparency frameborder="0" scrolling="no" width="100%" height="600" ></iframe>
+			</div>
+			<div class="parse">
+				<input id="url" class="import" type="text" placeholder="请粘贴视频网址>ㅂ<ﾉ ☆" title="复制网址来看电视喽！">
+				<select name="" id="jk">
+					<option value="https://api.sigujx.com/?url=" selected>
+								接口一</option>
+					<option value="https://api.sigujx.com/?url=">
+								接口二</option>
+					<option value="https://api.sigujx.com/?url=">
+								接口三</option>
+				</select>
+				<input class="btn" onclick="play()" type="submit" value="VIP解析">
+			</div>
+			<div class="notice">温馨提示：看不了了，刷新一下或换接口哦！</div>
+			<h2>电视导航</h2>
+			<div class="tvsource clear">
+			   <div class="tv"><a href="http://ivi.bupt.edu.cn/hls/hunanhd.m3u8" target="_blank">湖南卫视</a></div>
+			   <div class="tv"><a href="http://ivi.bupt.edu.cn/hls/dfhd.m3u8" target="_blank">东方卫视</a></div>
+			   <div class="tv"><a href="http://ivi.bupt.edu.cn/hls/zjhd.m3u8" target="_blank">浙江卫视</a></div>
+			   <div class="tv"><a href="http://ivi.bupt.edu.cn/hls/jshd.m3u8" target="_blank">江苏卫视</a></div>
+			   <div class="tv"><a href="http://ivi.bupt.edu.cn/hls/btv1.m3u8" target="_blank">北京卫视</a></div>
+               <div class="tv"><a href="http://ivi.bupt.edu.cn/hls/cctv1.m3u8" target="_blank">CCTV-1</a></div>
+               <div class="tv"><a href="http://ivi.bupt.edu.cn/hls/cctv3.m3u8" target="_blank">CCTV-3</a></div>
+               <div class="tv"><a href="http://ivi.bupt.edu.cn/hls/cctv6.m3u8" target="_blank">CCTV-6</a></div>
+               <div class="tv"><a href="http://ivi.bupt.edu.cn/hls/cctv8.m3u8" target="_blank">CCTV-8</a></div>
+               <div class="tv"><a href="http://ivi.bupt.edu.cn/hls/cctv14.m3u8" target="_blank">CCTV-14</a></div>
+			</div>
+        <div class="footer"><p>欢乐每一天！</p></div>
+	 </div>
+  </div>
+  <script src="js/tv-yuanmeng.js"></script>
+</html>
